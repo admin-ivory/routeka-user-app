@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "148891697108",
+    "project_id": "routeka-ci",
+    "storage_bucket": "routeka-ci.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148891697108:android:bffa04ab4701b70a67a041",
+        "android_client_info": {
+          "package_name": "userapp.routeka.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwRKA-S2qY8NmEaEE9Z0rmuFh1-vx-hs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
