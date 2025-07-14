@@ -21,7 +21,7 @@ class config {
   String mapkey = "";
 
 
-  String initialCountryCode = "IN";
+  String initialCountryCode = "FR";
 
 
 }
