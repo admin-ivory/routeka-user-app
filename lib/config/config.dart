@@ -18,7 +18,7 @@ class config {
   String msgapi = "/api/msg_otp.php";
   String twilioapi = "/api/twilio_otp.php";
   String smstypeapi = "/api/sms_type.php";
-  String mapkey = "";
+  String mapkey = "AIzaSyAwRKA-S2qY8NmEaEE9Z0rmuFh1-vx-hs4";
 
 
   String initialCountryCode = "FR";

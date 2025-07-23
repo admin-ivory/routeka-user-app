@@ -118,10 +118,12 @@ class _Booking_DetailsState extends State<Booking_Details> {
           });
 
       print(response.body);
+      print("---------------------routeka LOG------------------");
 
       if (response.statusCode == 200) {
         setState(() {
           data1 = newrequistFromJson(response.body);
+          print(data1?.tickethistory[0].busId);
           fun();
         });
 

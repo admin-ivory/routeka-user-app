@@ -175,7 +175,7 @@ class _Otp_Verfication_ForgotState extends State<Otp_Verfication_Forgot> {
                 const SizedBox(height: 15,),
                 CommonButton(containcolore: notifier.theamcolorelight,txt1: 'Confirm',context: context,onPressed1: () {
 
-                  print("dsddds");
+                  print("Routeka -------  New password");
                   if(newpasswordController.text.compareTo(conformpasswordController.text) == 0){
                     forGotApiController.Forgot(widget.mobileNumber,widget.ccode, conformpasswordController.text,).then((value) {
                       print("++++++${value}");

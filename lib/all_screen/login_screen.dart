@@ -76,9 +76,9 @@ class _Login_ScreenState extends State<Login_Screen> {
   TextEditingController passwordController1 = TextEditingController();
 
   List lottie12 = [
-    "assets/lottie/slider1.json",
-    "assets/lottie/slider2.json",
-    "assets/lottie/slider3.json",
+    "assets/lottie/rBus.json",
+    "assets/lottie/rTicket.json",
+    "assets/lottie/rnav.json",
     "assets/lottie/slider4.json",
   ];
 
@@ -647,7 +647,7 @@ class _Login_ScreenState extends State<Login_Screen> {
 
 
                         }),
-                        const SizedBox(height: 10,),
+                     //   const SizedBox(height: 10,),
 
 
 

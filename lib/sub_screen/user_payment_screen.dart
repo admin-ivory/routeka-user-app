@@ -711,15 +711,11 @@ class _Payment_ScreenState extends State<Payment_Screen> {
                                   );
                                 },
                               );
-
-
-
-
-
                             },
-                            child: Center(child: Text('PROCEED'.tr,style: const TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 12),))),
-                      )
-                    ],
+                            child:
+                            Center(child:
+                            Text('BUY TICKET'.tr,style: const TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 12),))),
+                   )],
                   )
                 ],
               ),
@@ -1017,12 +1013,10 @@ class _Payment_ScreenState extends State<Payment_Screen> {
                                 light = false;
                                 walletValue = 0;
                                 walletMain = double.parse(widget.wallet);
-                                totalPayment = widget.bottom + (widget.bottom * int.parse(taxamount) / 100);
+                                totalPayment = widget.bottom + (widget.bottom * int.parse(taxamount) / 10);
                                 coupon = 0;
                               });
                               if(coupon == 0){
-
-
 
                                 showModalBottomSheet<void>(
                                   elevation: 0,
@@ -1183,7 +1177,7 @@ class _Payment_ScreenState extends State<Payment_Screen> {
                                     },
                                 );
 
-
+                                print("------------------------routeka - log -search---------------------------");
 
 
 
