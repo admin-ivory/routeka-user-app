@@ -7,12 +7,40 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:148891697108:android:3db9ecb6a0a13d1467a041",
+        "android_client_info": {
+          "package_name": "driverapp.routeka.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwRKA-S2qY8NmEaEE9Z0rmuFh1-vx-hs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:148891697108:android:bffa04ab4701b70a67a041",
         "android_client_info": {
           "package_name": "userapp.routeka.com"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "148891697108-tn57cufhfga2io4hfjjgo545afcngbud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "userapp.routeka.com",
+            "certificate_hash": "74dff1911a851d916b2a0ce7d51230a4385ff847"
+          }
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAwRKA-S2qY8NmEaEE9Z0rmuFh1-vx-hs4"
